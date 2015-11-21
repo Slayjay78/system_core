@@ -95,6 +95,7 @@ struct thread_data_t {
             androidSetThreadName(name);
             free(name);
         }
+
         return f(u);
     }
 };
